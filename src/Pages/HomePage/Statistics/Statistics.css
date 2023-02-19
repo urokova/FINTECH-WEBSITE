@@ -1,0 +1,49 @@
+.statistics {
+  background: #fbfbfb;
+ padding-top: 200px;
+}
+.statistics .row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.statistics .statisticsCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.statistics .statisticsCards .cards {
+  width: 348px;
+  height: 356px;
+  display: flex;
+  /* align-items: flex-end; */
+  justify-content: flex-end;
+  flex-direction: column;
+  padding: 0 0 32px 32px;
+}
+.statistics .statisticsCards .bord {
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+.statistics .statisticsCards .cards .cardsText {
+  font-family: "SwitzerL";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 160%;
+  color: #737373;
+}
+.statistics .statisticsCards .cards h1 {
+  font-family: "EuropeExtB";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 160%;
+  text-transform: uppercase;
+  color: #060606;
+}
+.statistics .statisticsCards .cards p {
+  font-family: "SwitzerR";
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 160%;
+  color: #000000;
+}

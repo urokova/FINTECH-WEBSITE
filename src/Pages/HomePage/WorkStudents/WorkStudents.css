@@ -1,0 +1,116 @@
+.workStudents {
+  background: #fbfbfb;
+  padding-top: 200px;
+}
+
+.workStudents .row {
+  display: flex;
+  align-items: flex-start;
+  grid-gap: 184px;
+  /* justify-content: space-between; */
+}
+
+.workStudents .studentsTitle button {
+  padding: 30px;
+  border: 1px solid #000000;
+  border-radius: 73px;
+  font-family: "EuropeExtR";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #000000;
+  margin-top: 40px;
+  background: transparent;
+}
+
+.workStudents .studentsCard {
+  background: #000000;
+  border-radius: 10px;
+  width: 712px;
+  padding: 20px;
+}
+.workStudents .webTitle {
+  font-family: "EuropeExt";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.workStudents .studentsCard .webImg {
+  width: 436px;
+  margin: auto;
+}
+.workStudents .studentsimgs {
+  display: flex;
+  align-items: center;
+}
+.workStudents .studentsimgs img {
+  border-radius: 50%;
+}
+.workStudents .studentsimgs img:nth-last-of-type(1) {
+  margin-left: -17px;
+  z-index: 1;
+}
+.workStudents .studentsimgs img:nth-last-of-type(2) {
+  z-index: 2;
+  margin-left: -17px;
+}
+.workStudents .studentsimgs img:nth-last-of-type(3) {
+  margin-left: -17px;
+  z-index: 3;
+}
+.workStudents .studentsimgs img:nth-last-of-type(4) {
+  z-index: 4;
+}
+.workStudents .studentsimgs .team {
+  margin-left: 10px;
+}
+
+.workStudents .studentsimgs .team h2 {
+  font-family: "SwitzerL";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.workStudents .studentsimgs .team p {
+  font-family: "SwitzerL";
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 140%;
+  color: #c5c5c5;
+}
+
+.workStudents .rowBody {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 40px;
+  grid-gap: 40px;
+}
+.workStudents .cards {
+  background: #000000;
+  border-radius: 10px;
+  width: 513px;
+  /* width: 27%; */
+  height: 720px;
+  padding: 20px 0 20px 20px;
+}
+.workStudents .cards .phoneImg {
+  text-align: right;
+}
+.workStudents .crmImg {
+  text-align: center;
+}
+
+.workStudents .cardsСrm {
+  background: #000000;
+  border-radius: 10px;
+  width: 1067px;
+  height: 889px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}

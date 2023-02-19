@@ -1,0 +1,26 @@
+@import url("./assets/Css/fonts.css");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1620px;
+  margin: auto;
+  padding: 0 15px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.titleH1 {
+  font-family: "EuropeExtR";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 161.02%;
+  color: #666666;
+}

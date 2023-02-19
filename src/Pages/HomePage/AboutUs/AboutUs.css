@@ -1,0 +1,49 @@
+.aboutUs {
+}
+
+.aboutUs .row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.aboutUs .aboutTextScroll {
+  max-width: 1046px;
+  position: relative;
+}
+.aboutUs .aboutTextScroll p {
+  font-family: "EuropeExtB";
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: justify;
+  word-spacing: 20px;
+}
+
+.aboutUs .scrollBtn {
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #000000;
+  backdrop-filter: blur(3.5px);
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.aboutUs .scrollBtn span {
+  margin: 6px 0;
+  font-family: "EuropeExtR";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  text-transform: uppercase;
+  color: #000000;
+}

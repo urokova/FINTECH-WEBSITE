@@ -1,0 +1,103 @@
+.courses {
+  background: #fbfbfb;
+  margin-top: 150px;
+  padding: 50px 0;
+}
+.courses .row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.courses .coursesBody {
+  max-width: 1045px;
+}
+.courses .coursesBody .coursesBtns {
+  display: flex;
+  align-items: center;
+}
+.courses .coursesBody .coursesBtns button {
+  font-family: "EuropeExtB";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 220.02%;
+  color: #000000;
+  padding: 14px 128px;
+  margin: 0 5px;
+  border: none;
+  background: #ffffff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.courses .coursesBody .coursesBtns button:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+.courses .coursesBody .coursesBtns button:focus {
+  background: #000000;
+  color: #ffffff;
+}
+.courses .coursesBody .coursesCard {
+  margin-top: 44px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  justify-content: space-between;
+  grid-gap: 40px;
+}
+.courses .coursesBody .coursesCard .cards {
+  background: #ffffff;
+  border-radius: 10px;
+  height: 390px;
+}
+.courses .coursesBody .coursesCard .cards h1 {
+  font-family: "EuropeExtB";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 160%;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.courses .coursesBody .coursesCard .cardsOne {
+  display: flex;
+  align-items: flex-end;
+  padding: 0 32px 32px 32px;
+}
+.courses .coursesBody .coursesCard .cardsOne p {
+font-family: "SwitzerL";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 160%;
+  color: #737373;
+}
+
+.courses .coursesBody .coursesCard .cardsTwo {
+  padding: 50px 20px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.courses .coursesBody .coursesCard .cardsTwo .month {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 81px;
+  height: 81px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #000000;
+}
+.courses .coursesBody .coursesCard .cardsTwo .month p {
+  font-family: "EuropeExtB";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}

@@ -1,0 +1,99 @@
+.contact {
+  padding-top: 134px;
+  background: #fbfbfb;
+}
+.contact .row {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 33px;
+}
+.contact .contactRegister {
+  margin-left: 80px;
+}
+.contact .contactRegister h1 {
+  font-family: "EuropeExtB";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 161.02%;
+  color: #000000;
+}
+.contact .contactRegister p {
+  font-family: "SwitzerR";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 161.02%;
+  color: #7c7c7c;
+  margin: 8px 0 110px;
+}
+.contact .contactRegister form .inputTitle {
+  border: none;
+  display: block;
+  margin: 80px 0;
+  border-bottom: 1px solid #000000;
+  width: 500px;
+  color: #000000;
+  font-family: "EuropeExtB";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 161.02%;
+  outline: none;
+  height: 40px;
+}
+.contact .contactRegister form .inputTitle::placeholder {
+  font-family: "EuropeExt";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 161.02%;
+  color: #d6d6d6;
+}
+.contact .contactRegister form button {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: none;
+  font-family: "EuropeExtB";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 161.02%;
+  text-align: center;
+  color: #a9a9a9;
+}
+.react-tel-input .flag-dropdown {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding: 0;
+  background-color: transparent !important;
+  border: none !important;
+  display: none !important;
+}
+
+.react-tel-input .special-label {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  font-size: 13px;
+  left: 46px;
+  top: -8px;
+  background: #fff;
+  padding: 0 2px;
+  white-space: nowrap;
+}
+.react-tel-input .form-control {
+  font-size: 14px;
+  letter-spacing: 0.01rem;
+  padding-left: 5px !important;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  line-height: 25px;
+  height: 40px !important;
+  width: 500px !important;
+  outline: none;
+  border-bottom: 1px solid #000000 !important;
+  font-family: "EuropeExtB" !important;
+  font-weight: 700 !important;
+  font-size: 24px !important;
+  line-height: 161.02% !important;
+  color: #000000 !important;
+}
