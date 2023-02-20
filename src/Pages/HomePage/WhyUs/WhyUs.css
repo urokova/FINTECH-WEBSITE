@@ -1,4 +1,56 @@
-.whyUs{
-    padding: 20px 0;
-    background-color: grey;
+.whyUs {
+  background: #fbfbfb;
+  padding-top: 200px;
+}
+.whyUs .centerTitle {
+  text-align: center;
+}
+
+.whyUs .row {
+  padding: 40px 0 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.whyUs .cardTitle:first-child {
+  margin-right: 10px;
+  text-align: right;
+}
+.whyUs .cardTitle:last-child {
+  margin-left: 10px;
+  text-align: left;
+}
+.whyUs .cardTitle {
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.whyUs .cardTitle p {
+  font-family: "SwitzerL";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 160%;
+  color: #737373;
+}
+.whyUs .cardBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #d6d6d6;
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+}
+.whyUs .cardBody h1 {
+  font-family: "EuropeExtB";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 161.02%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1f1f1f;
 }

@@ -270,3 +270,30 @@ export const Instagram = (
     <rect x="0.5" y="0.5" width="59" height="59" rx="29.5" stroke="white" />
   </svg>
 );
+
+export const MentorArrowLeft = (
+  <svg
+    width="20"
+    height="13"
+    viewBox="0 0 20 13"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M1 6.5L20 6.5M1 6.5L6.5 12M1 6.5L6.5 1" stroke="#1F1F1F" />
+  </svg>
+);
+
+export const MentorArrowRight = (
+  <svg
+    width="20"
+    height="13"
+    viewBox="0 0 20 13"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M19 6.5L-2.40413e-07 6.5M19 6.5L13.5 1M19 6.5L13.5 12"
+      stroke="#1F1F1F"
+    />
+  </svg>
+);

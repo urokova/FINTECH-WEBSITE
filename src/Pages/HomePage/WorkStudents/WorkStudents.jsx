@@ -15,7 +15,7 @@ function WorkStudents() {
         <div className="row">
           <div className="studentsTitle">
             <h1 className="titleH1">{"<Talabalarimizning_ishlari/>"}</h1>
-            <button>Hammasini ko’rish</button>
+            <button className="seeAllBtn">Hammasini ko’rish</button>
           </div>
           <div className="studentsCard">
             <h1 className="webTitle">WEBSITE DESIGN</h1>

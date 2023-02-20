@@ -1,4 +1,100 @@
 .mentors {
-  padding: 20px 0;
-  background-color: rgb(212, 212, 212);
+  padding-top: 173px;
+  background: #fbfbfb;
+}
+
+.mentors .row {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+.mentors .centerBtn {
+  text-align: center;
+  z-index: 999999;
+  margin-bottom: -90px;
+}
+.mentors .centerBtn .mentorBtn {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  font-family: "EuropeExt";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  text-transform: uppercase;
+  color: #1f1f1f;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #1f1f1f;
+  backdrop-filter: blur(3.5px);
+  border-radius: 100px;
+}
+.mentors .dFlex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.mentors .cards {
+  position: relative;
+}
+.mentors .cards .mentorsImg img {
+  border-radius: 10px;
+}
+.mentors .cards .cardTitle {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 90px;
+  left: 5px;
+}
+.mentors .cards .cardTitle h2 {
+  font-family: "Switzer";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 161.02%;
+  text-align: center;
+  color: #ffffff;
+  background: rgba(114, 114, 114, 0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  padding: 8px 12px;
+  margin: 0 6px;
+  cursor: pointer;
+}
+
+.mentors .cards .cardBody h2 {
+  font-family: "EuropeExtB";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  color: #1f1f1f;
+  margin: 20px 0 9px;
+}
+.mentors .cards .cardBody p {
+  font-family: "SwitzerR";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #6a6a6a;
+}
+
+.mentors .cardsAssest {
+  margin-left: 20px;
+}
+.mentors .cardsAssest img {
+  border-radius: 50%;
+}
+.mentors .cardsAssest h2 {
+  font-family: "EuropeExtB";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  color: #1f1f1f;
+  margin: 20px 0 9px;
+}
+.mentors .cardsAssest p {
+  font-family: "SwitzerR";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #6a6a6a;
 }

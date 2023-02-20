@@ -6,10 +6,11 @@
   display: flex;
   align-items: flex-start;
   margin-top: 33px;
+  grid-gap: 80px;
 }
-.contact .contactRegister {
+/* .contact .contactRegister {
   margin-left: 80px;
-}
+} */
 .contact .contactRegister h1 {
   font-family: "EuropeExtB";
   font-weight: 700;
@@ -38,6 +39,8 @@
   line-height: 161.02%;
   outline: none;
   height: 40px;
+  background: transparent;
+  padding: 0 10px;
 }
 .contact .contactRegister form .inputTitle::placeholder {
   font-family: "EuropeExt";

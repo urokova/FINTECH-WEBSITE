@@ -10,19 +10,6 @@
   /* justify-content: space-between; */
 }
 
-.workStudents .studentsTitle button {
-  padding: 30px;
-  border: 1px solid #000000;
-  border-radius: 73px;
-  font-family: "EuropeExtR";
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 140%;
-  color: #000000;
-  margin-top: 40px;
-  background: transparent;
-}
-
 .workStudents .studentsCard {
   background: #000000;
   border-radius: 10px;
